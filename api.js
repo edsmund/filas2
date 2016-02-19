@@ -1,5 +1,4 @@
 var path = require('path');
-var logger = require('morgan');
 var http = require('http');
 
 // Log the requests

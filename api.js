@@ -23,8 +23,8 @@ MagicKingdom.GetWaitTimes(function(err, data) {
     
 
 
-    	console.log(JSON.stringify(data[i].name, null, 2));
-    	console.log(data[i].waitTime);
+    	//console.log(JSON.stringify(data[i].name, null, 2));
+    	//console.log(data[i].waitTime);
     	global.nome=data[i].name;
         global.tempo=data[i].waitTime;
     	i++;

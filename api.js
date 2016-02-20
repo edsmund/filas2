@@ -1883,6 +1883,6 @@ AK.GetWaitTimes(function(err, data) {
 
 
    
-server.listen(3000, function(){
+server.listen(80, function(){
   console.log('Executando Servidor HTTP');
 });

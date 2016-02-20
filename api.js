@@ -84,6 +84,6 @@ MagicKingdom.GetWaitTimes(function(err, data) {
 
 
    
-server.listen(8080, function(){
+server.listen(3000, function(){
   console.log('Executando Servidor HTTP');
 });
